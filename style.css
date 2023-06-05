@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    transition: all 0.3s;
+}
+
+:root {
+    --primary: #e43f3f;
+    --secondary: #f4f3ff;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log {
+    display: flex;
+}
+
+.log h1 {
+    margin: 0;
+    font-family: 'Segoe Print';
+    font-weight: 700;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu {
+    margin: 0px 30px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.menu ul li a {
+    color: #000;
+    font-size: 15px;
+}
+
+.download_social {
+    display: flex;
+    align-items: center;
+}
+
+.social svg {
+    color: #00000059;
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.download button {
+    background-color: var(--primary);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0px 70px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download button svg {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.left_ban {
+    margin-left: 120px;
+}
+
+.left_ban h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.find {
+    display: flex;
+    align-items: center;
+}
+
+.right_ban {
+    width: 900px;
+    background-image: url(./images/Frame\ 15.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_img {
+    width: 100%;
+}
+
+.first_img img {
+    width: 100%;
+}
+
+.second_img {
+    width: 400px;
+    margin-left: 100px;
+}
+
+.second_img img {
+    width: 100%;
+}
+
+.start button {
+    background-color: var(--primary);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.arrow {
+    position: absolute;
+}
+
+.arrow img {
+    position: relative;
+    right: 40px;
+}
+
+.start p {
+    margin-top: 150px;
+    margin-left: 10px;
+    font-weight: 700;
+    color: #00000083;
+}
+
+.team {
+    position: absolute;
+}
+
+.team .two {
+    position: relative;
+    right: 20px;
+}
+
+.team .three {
+    position: relative;
+    right: 40px;
+}
+
+.team .four {
+    position: relative;
+    right: 60px;
+}
+
+.team .five {
+    position: relative;
+    right: 80px;
+}
+
+.team .six {
+    position: relative;
+    right: 100px;
+}
+
+.team .seven {
+    position: relative;
+    right: 120px;
+}
+
+.team .eight {
+    position: relative;
+    right: 140px;
+}
+
+.third_ban {
+    background-image: url(./images/Frame\ 23.png);
+    width: 100%;
+    height: 200px;
+}
+
+.second_banner {
+    background-color: var(--secondary);
+    height: auto;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.second_ban {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.different h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.different p {
+    font-size: 15px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.different h1,
+p {
+    margin: 0;
+    text-align: left;
+}
+
+.different {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.phone_img {
+    width: 400px;
+    margin-right: 210px;
+}
+
+.phone_img img {
+    width: 100%;
+}
+
+.features {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+}
+
+.feat1 {
+    width: 300px;
+    height: 180px;
+    /* background-color: #000; */
+
+}
+
+.icons h1 {
+    font-size: 15px;
+}
+
+.icon_text {
+    font-size: 12px;
+}
+
+.icon {
+    width: 50px;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.third_banner .here {
+    width: 380px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 260px;
+    height: 280px;
+    background-color: #f4f3ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card p {
+    margin: 0px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card>div {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.person img {
+    width: 100%;
+}
+
+.third_bann {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.fourth_ban {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    align-items: center;
+}
+
+.text_img {
+    width: 50px;
+}
+
+.text_img img {
+    width: 100%;
+}
+
+.text_img2 {
+    width: 100px;
+}
+
+.text_img2 img {
+    width: 100%;
+}
+
+.search {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search h1 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.search p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.fifth_section h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.fourth_section h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.third_section h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.all_faqs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.left_faqs a {
+    color: #000;
+    text-decoration: none;
+}
+.right_faqs a {
+    color: #000;
+    text-decoration: none;
+}
+.faqs {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.faqs svg{
+    margin-left: 150px;
+}
